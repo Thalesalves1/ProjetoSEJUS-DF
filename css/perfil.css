@@ -1,0 +1,133 @@
+/* geral */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #323232;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+body{
+
+    font-family: Arial, Helvetica, sans-serif;
+    background: #A6A6A6;
+
+
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 40px;
+    background: black;
+    z-index: 10;
+}
+
+.header_menu {
+    text-align: right;
+}
+
+.header_menu ul li {
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 13px;
+}
+
+.header_menu ul li a {
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 10px 0;
+}
+
+.header_menu ul li a:hover {
+    color: aqua;
+}
+
+.administrador {
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 90px;
+    background-color: #05CABC;
+    background-size: cover;
+    margin-top: 10px;
+    text-align: center;
+    padding-top: 45px;
+    
+}
+.administrador h1 {
+    width: 500px;
+    margin-left: 400px;
+    margin-right: 100px;
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+input, label{
+    display: block;
+    width: 100%;
+}
+
+#main-container{
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    padding: 15px;
+       
+}
+#main-container h1{
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 1.6rem;
+}
+
+
+.full-box{
+    flex: 1 1 100%;
+    position: relative;
+}
+.half-box{
+    flex: 1 1 45%;
+    position: relative;
+}
+.spacing{
+    margin-right: 2.5%;
+}
+label{
+    font-weight: bold;
+    font-size: .8rem;
+}
+input{
+    border-bottom: 2px solid #323232;
+    padding: 10px;
+    font-size: .9rem;
+    margin-bottom: 40px;
+}
+input[type="submit"]{
+    background-color: black;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    height: 40px;
+    cursor: pointer;
+}
+#agreement{
+    margin-right: 5px;
+}
+#agreement, #agreement-label {
+    display: inline-block;
+    width: auto;
+}
+.opcao{
+    flex: 1 1 45%;
+     
+}
+
+
